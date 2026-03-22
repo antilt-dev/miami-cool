@@ -2,10 +2,10 @@ import { motion, useInView } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 
 const stats = [
-  { value: 10000, suffix: "+", label: "Units Serviced" },
-  { value: 15, suffix: "+", label: "Years Experience" },
-  { value: 4.7, suffix: "/5", label: "Google Rating", decimals: 1 },
-  { value: 129, suffix: "+", label: "5-Star Reviews" },
+  { value: 5000, suffix: "+", label: "Homes Serviced" },
+  { value: 10, suffix: "+", label: "Years Experience" },
+  { value: 4.5, suffix: "/5", label: "Google Rating", decimals: 1 },
+  { value: 35, suffix: "+", label: "5-Star Reviews" },
 ];
 
 function AnimatedCounter({ value, suffix, decimals = 0 }: { value: number; suffix: string; decimals?: number }) {

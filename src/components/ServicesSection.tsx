@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
-import { Wrench, Thermometer, Wind, Settings, Droplets } from "lucide-react";
+import { Wrench, Thermometer, Wind, Settings, Droplets, Flame } from "lucide-react";
 import React from "react";
 
 const services = [
-  { title: "AC Repair", icon: <Wrench />, desc: "Fast, reliable repairs for residential and commercial air conditioning systems." },
-  { title: "Diagnostics", icon: <Thermometer />, desc: "Comprehensive system diagnostics to pinpoint issues before they become costly." },
-  { title: "Refrigerant Recharge", icon: <Droplets />, desc: "Expert refrigerant services to restore peak cooling performance." },
-  { title: "System Installation", icon: <Settings />, desc: "Full HVAC and auto AC installations with manufacturer-backed warranties." },
-  { title: "Air Quality", icon: <Wind />, desc: "Improve indoor air quality with advanced filtration and duct cleaning." },
-  { title: "Auto AC Service", icon: <Thermometer />, desc: "Specialized vehicle climate control repair for all makes and models." },
+  { title: "AC Repair & Install", icon: <Thermometer />, desc: "Fast, reliable air conditioning repairs and new system installations for your home." },
+  { title: "Heating Systems", icon: <Flame />, desc: "Furnace repair, heat pump service, and full heating system installations to keep you warm." },
+  { title: "System Diagnostics", icon: <Wrench />, desc: "Comprehensive HVAC diagnostics to pinpoint issues before they become costly repairs." },
+  { title: "Duct Work", icon: <Wind />, desc: "Professional duct cleaning, sealing, and installation for optimal airflow and efficiency." },
+  { title: "Refrigerant Service", icon: <Droplets />, desc: "Expert refrigerant recharge and leak repair to restore peak cooling performance." },
+  { title: "Maintenance Plans", icon: <Settings />, desc: "Seasonal tune-ups and preventive maintenance to extend your system's lifespan." },
 ];
 
 const ServicesSection = () => (

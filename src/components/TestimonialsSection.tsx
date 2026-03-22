@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 import { Star } from "lucide-react";
 
 const reviews = [
-  { name: "Maria L.", text: "They fixed our AC in under two hours during a heatwave. Incredible service and fair pricing. Highly recommend!", rating: 5 },
-  { name: "Carlos R.", text: "Best auto AC repair in Miami. My car's AC hadn't worked in months — Artiles had it blowing ice cold same day.", rating: 5 },
-  { name: "Jennifer W.", text: "Professional, on time, and honest. They didn't try to upsell me on things I didn't need. Rare find.", rating: 5 },
-  { name: "David M.", text: "We've used Artiles for our commercial building for 3 years. Consistent, reliable, and always great work.", rating: 5 },
-  { name: "Ana G.", text: "Called for an emergency on a Sunday — they picked up and sent someone within the hour. Lifesavers!", rating: 5 },
-  { name: "Robert T.", text: "Fair pricing, great communication, and the AC has been running perfectly since the repair. Thank you!", rating: 4 },
+  { name: "Sarah K.", text: "Red's team replaced our furnace right before winter hit. Professional, on time, and the price was fair. Our home has never been warmer!", rating: 5 },
+  { name: "Mike D.", text: "Called for an AC issue on a Saturday and they came out same day. Diagnosed and fixed in under two hours. Highly recommend!", rating: 5 },
+  { name: "Lisa M.", text: "We've used Red's HVAC for annual maintenance for 3 years now. Consistent, reliable, and always great communication.", rating: 5 },
+  { name: "James R.", text: "Honest and straightforward. They didn't try to upsell me on a new system when a simple repair was all I needed. Rare find.", rating: 5 },
+  { name: "Patricia W.", text: "Our AC went out during a heat wave and they had us cool again within hours. Lifesavers! Great emergency service.", rating: 5 },
+  { name: "Tom H.", text: "Fair pricing, thorough inspection, and the new system has been running perfectly. Thank you Red's HVAC!", rating: 4 },
 ];
 
 const TestimonialsSection = () => (
@@ -21,11 +21,10 @@ const TestimonialsSection = () => (
         className="text-center"
       >
         <h2 className="text-4xl font-heading font-bold mb-2">What Our Clients Say</h2>
-        <p className="text-muted-foreground">Real reviews from real Miami customers.</p>
+        <p className="text-muted-foreground">Real reviews from real Ohio homeowners.</p>
       </motion.div>
     </div>
 
-    {/* Auto-scrolling track */}
     <div className="relative">
       <div className="flex animate-scroll-left w-max gap-6 px-6">
         {[...reviews, ...reviews].map((r, i) => (

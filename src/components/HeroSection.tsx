@@ -3,7 +3,6 @@ import { Star } from "lucide-react";
 
 const HeroSection = () => (
   <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
-    {/* Animated background orb */}
     <div className="absolute inset-0 z-0">
       <div className="absolute inset-0 bg-gradient-to-br from-primary/8 via-transparent to-secondary/5" />
       <motion.div
@@ -28,11 +27,11 @@ const HeroSection = () => (
         >
           <div className="flex">
             {[...Array(5)].map((_, i) => (
-              <Star key={i} size={16} className="text-yellow-500 fill-yellow-500" />
+              <Star key={i} size={16} className={i < 4 ? "text-yellow-500 fill-yellow-500" : "text-yellow-500 fill-yellow-500 opacity-50"} />
             ))}
           </div>
           <span className="text-sm font-semibold text-muted-foreground">
-            4.7 stars · 129 Google reviews
+            4.5 stars · 35 Google reviews
           </span>
         </motion.div>
 
@@ -42,8 +41,8 @@ const HeroSection = () => (
           transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
           className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-heading font-extrabold leading-[0.92] tracking-tight mb-6 text-balance"
         >
-          Precision Cooling{" "}
-          <span className="text-primary">For Miami's Heat.</span>
+          Comfort In{" "}
+          <span className="text-primary">Every Season.</span>
         </motion.h1>
 
         <motion.p
@@ -52,7 +51,7 @@ const HeroSection = () => (
           transition={{ duration: 0.6, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
           className="text-lg md:text-xl text-muted-foreground mb-10 max-w-xl font-light leading-relaxed"
         >
-          Trusted HVAC &amp; Auto AC expertise since 2008. We keep your home and car cool when it matters most.
+          Trusted residential HVAC expertise in Ohio. We keep your home warm in winter and cool in summer — all year round.
         </motion.p>
 
         <motion.div
@@ -68,10 +67,10 @@ const HeroSection = () => (
             Book Free Inspection
           </a>
           <a
-            href="tel:+13052640777"
+            href="tel:+16146839812"
             className="bg-card/50 backdrop-blur-sm border-2 border-primary text-foreground px-8 py-4 rounded-xl font-bold text-base transition-all hover:bg-primary/10 active:scale-[0.97]"
           >
-            Call (305) 264-0777
+            Call (614) 683-9812
           </a>
         </motion.div>
       </div>

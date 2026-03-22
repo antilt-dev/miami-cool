@@ -25,7 +25,7 @@ const Navbar = ({ darkMode, toggleDark }: NavbarProps) => {
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         <a href="#" className="text-2xl font-heading font-extrabold tracking-tight text-primary">
-          ARTILES <span className="text-muted-foreground font-light">AUTO AC</span>
+          RED'S <span className="text-muted-foreground font-light">HVAC</span>
         </a>
 
         <div className="hidden md:flex items-center gap-6 text-sm font-semibold">
@@ -49,10 +49,10 @@ const Navbar = ({ darkMode, toggleDark }: NavbarProps) => {
           </button>
 
           <a
-            href="tel:+13052640777"
+            href="tel:+16146839812"
             className="hidden md:flex items-center gap-2 font-bold text-primary text-sm"
           >
-            <Phone size={16} /> (305) 264-0777
+            <Phone size={16} /> (614) 683-9812
           </a>
 
           <a

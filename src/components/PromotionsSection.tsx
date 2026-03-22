@@ -5,8 +5,8 @@ const promos = [
   {
     icon: <Zap size={28} />,
     ribbon: "Limited Time",
-    title: "$79 AC Tune-Up Special",
-    desc: "Complete system inspection, filter check, and refrigerant level test. Book before summer hits.",
+    title: "$79 HVAC Tune-Up Special",
+    desc: "Complete system inspection, filter check, and performance test. Book before the season changes.",
   },
   {
     icon: <BadgePercent size={28} />,

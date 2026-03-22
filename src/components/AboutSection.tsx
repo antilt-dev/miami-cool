@@ -12,13 +12,13 @@ const AboutSection = () => (
           transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
         >
           <h2 className="text-4xl font-heading font-bold mb-4 text-balance">
-            Meet the Artiles Team
+            Meet the Red's HVAC Team
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-6">
-            For over 15 years, the Artiles family has been Miami's go-to for HVAC and auto AC services. Our commitment to honest diagnostics, transparent pricing, and lasting repairs has earned us a 4.7-star reputation across 129 reviews.
+            Red's HVAC Division has been Ohio's trusted choice for residential heating and cooling. Our commitment to honest diagnostics, transparent pricing, and lasting repairs has earned us a 4.5-star reputation across 35 reviews.
           </p>
           <p className="text-muted-foreground leading-relaxed">
-            Every technician on our team is EPA-certified and factory-trained. We treat every home, every vehicle, and every customer like family — because in Miami, staying cool isn't a luxury, it's a necessity.
+            Every technician on our team is EPA-certified and factory-trained. We treat every home and every customer like family — because in Ohio, comfort in every season isn't a luxury, it's a necessity.
           </p>
         </motion.div>
 

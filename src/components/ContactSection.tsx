@@ -22,19 +22,18 @@ const ContactSection = () => {
           className="bg-secondary rounded-3xl p-8 lg:p-14 shadow-2xl"
         >
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-            {/* Info side */}
             <div className="text-secondary-foreground">
               <h2 className="text-4xl font-heading font-bold mb-4">
-                Schedule Your Inspection
+                Schedule Your Service
               </h2>
               <p className="opacity-90 mb-8 leading-relaxed">
-                Miami's sun doesn't wait. Neither do we. Fill out the form for a same-day response.
+                Whether it's heating or cooling, we've got you covered. Fill out the form for a prompt response.
               </p>
 
               <div className="space-y-4">
                 {[
-                  { icon: <MapPin size={20} />, text: "Serving Miami, FL & Surrounding Areas" },
-                  { icon: <Phone size={20} />, text: "+1 (305) 264-0777" },
+                  { icon: <MapPin size={20} />, text: "Serving Grove City, OH & Surrounding Areas" },
+                  { icon: <Phone size={20} />, text: "+1 (614) 683-9812" },
                   { icon: <Clock size={20} />, text: "Mon–Sat: 8AM – 6PM | Emergency 24/7" },
                 ].map((item, i) => (
                   <div key={i} className="flex items-center gap-4 bg-white/10 p-4 rounded-xl">
@@ -44,11 +43,10 @@ const ContactSection = () => {
                 ))}
               </div>
 
-              {/* Map embed */}
               <div className="mt-8 rounded-xl overflow-hidden h-48">
                 <iframe
-                  title="Artiles location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229080.28000065527!2d-80.35265!3d25.782324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2sMiami%2C%20FL!5e0!3m2!1sen!2sus!4v1"
+                  title="Red's HVAC Division location"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98000!2d-83.583948!3d40.3925504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f34a5ebfb3dfaa5%3A0x81d5110817247ed1!2sReds%20hvac%20division!5e0!3m2!1sen!2sus!4v1"
                   className="w-full h-full border-0"
                   loading="lazy"
                   allowFullScreen
@@ -56,7 +54,6 @@ const ContactSection = () => {
               </div>
             </div>
 
-            {/* Form side */}
             <div>
               <form onSubmit={handleSubmit} className="grid grid-cols-1 gap-4">
                 <input
@@ -78,7 +75,7 @@ const ContactSection = () => {
                 />
                 <select className="p-4 rounded-xl bg-background text-foreground outline-none border border-border focus:ring-2 focus:ring-primary transition-shadow">
                   <option>AC Repair</option>
-                  <option>Auto AC Service</option>
+                  <option>Heating / Furnace</option>
                   <option>System Installation</option>
                   <option>Maintenance</option>
                   <option>Emergency Service</option>

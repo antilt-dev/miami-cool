@@ -3,12 +3,12 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
 
 const images = [
-  { src: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&q=80", alt: "HVAC unit installation" },
-  { src: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80", alt: "AC technician at work" },
-  { src: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80", alt: "Modern AC system" },
-  { src: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80", alt: "Auto AC repair" },
-  { src: "https://images.unsplash.com/photo-1631545806609-04f83e46f4fb?w=600&q=80", alt: "Duct work" },
-  { src: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=600&q=80", alt: "Diagnostics equipment" },
+  { src: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&q=80", alt: "Residential HVAC installation" },
+  { src: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80", alt: "HVAC technician at work" },
+  { src: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80", alt: "Modern home AC system" },
+  { src: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80", alt: "Furnace repair service" },
+  { src: "https://images.unsplash.com/photo-1631545806609-04f83e46f4fb?w=600&q=80", alt: "Residential duct work" },
+  { src: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=600&q=80", alt: "HVAC diagnostics equipment" },
 ];
 
 const GallerySection = () => {
@@ -52,7 +52,6 @@ const GallerySection = () => {
           ))}
         </div>
 
-        {/* Lightbox */}
         <AnimatePresence>
           {lightbox !== null && (
             <motion.div

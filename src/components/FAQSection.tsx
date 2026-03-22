@@ -8,10 +8,10 @@ import {
 
 const faqs = [
   { q: "Do you offer a warranty on repairs?", a: "Yes. All our repair work comes with a 12-month parts and labor warranty. We stand behind every job we do." },
-  { q: "How fast can you respond to emergencies?", a: "We offer same-day emergency service across Miami. Most calls are responded to within 2 hours during business hours." },
-  { q: "Do you handle both residential and commercial?", a: "Absolutely. We service residential homes, commercial properties, and vehicle AC systems — all under one roof." },
-  { q: "Are you licensed and insured?", a: "Yes. Artiles Auto Air Conditioner is fully licensed and insured in the state of Florida. Ask us for credentials anytime." },
-  { q: "What brands do you work with?", a: "We service all major brands including Carrier, Trane, Lennox, Goodman, Rheem, and more. For auto AC, all makes and models." },
+  { q: "How fast can you respond to emergencies?", a: "We offer same-day emergency service across the greater Ohio area. Most calls are responded to within 2 hours during business hours." },
+  { q: "Do you handle both heating and cooling?", a: "Absolutely. We service furnaces, heat pumps, air conditioners, and full HVAC systems — heating and cooling under one roof." },
+  { q: "Are you licensed and insured?", a: "Yes. Red's HVAC Division is fully licensed and insured in the state of Ohio. Ask us for credentials anytime." },
+  { q: "What brands do you work with?", a: "We service all major brands including Carrier, Trane, Lennox, Goodman, Rheem, Bryant, and more." },
 ];
 
 const FAQSection = () => (
